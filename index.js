@@ -9,7 +9,10 @@ app.use(bodyParser.json());
 const cors = require('cors');
 app.use(cors());   
 
+app.get('/api/user',(req, res)=>{
+    res.send("Data for user: ")
 
+});
      
 const authRouteURL = require('./src/routes/user-routes');
 app.use('/auth', authRouteURL);
