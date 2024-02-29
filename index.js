@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 const cors = require('cors');
 app.use(cors());   
 
-app.get('/api/user',(req, res)=>{
+app.get('/api/user-data',(req, res)=>{
     res.send("Data for user: ")
 
 });
