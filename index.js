@@ -13,6 +13,13 @@ app.get('/api/user-data',(req, res)=>{
     res.send("Data for user: ")
 
 });
+
+app.get('/api/addres',(req, res)=>{
+    res.send("Noida  sector 73 ")
+
+});
+
+
      
 const authRouteURL = require('./src/routes/user-routes');
 app.use('/auth', authRouteURL);
