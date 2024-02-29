@@ -14,10 +14,7 @@ app.get('/api/user-data',(req, res)=>{
 
 });
 
-app.get('/api/addres',(req, res)=>{
-    res.send("Noida  sector 73 ")
-
-});
+ 
 
 
      
@@ -32,6 +29,7 @@ app.use('/product', productRoutesUrl);
 
 const cartRoutesUrl = require('./src/routes/cart-routes');
 app.use('/cart', cartRoutesUrl);
+
 
 
 
