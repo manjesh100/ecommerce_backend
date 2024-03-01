@@ -14,6 +14,12 @@ app.get('/api/user-data',(req, res)=>{
 
 });
 
+
+app.get('/api/noida',(req, res)=>{
+    res.send("noidanoidanoida ")
+
+});
+
  
 
 
