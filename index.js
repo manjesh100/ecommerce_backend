@@ -26,17 +26,17 @@ app.get('/api/noida',(req, res)=>{
 
 
      
-const authRouteURL = require('./src/routes/user-routes');
-app.use('/auth', authRouteURL);
+// const authRouteURL = require('./src/routes/user-routes');
+// app.use('/auth', authRouteURL);
 
-const categoryUrl = require('./src/routes/category-routes');
-app.use('/category', categoryUrl);
-const productRoutesUrl = require('./src/routes/product-routes');
-app.use('/product', productRoutesUrl);
+// const categoryUrl = require('./src/routes/category-routes');
+// app.use('/category', categoryUrl);
+// const productRoutesUrl = require('./src/routes/product-routes');
+// app.use('/product', productRoutesUrl);
 
 
-const cartRoutesUrl = require('./src/routes/cart-routes');
-app.use('/cart', cartRoutesUrl);
+// const cartRoutesUrl = require('./src/routes/cart-routes');
+// app.use('/cart', cartRoutesUrl);
 
 
 
