@@ -10,12 +10,14 @@ const cors = require('cors');
 app.use(cors());   
 
 app.get('/api/user-data',(req, res)=>{
+    console.log("User data returned  1");
     res.send("Data for user: ")
 
 });
 
 
 app.get('/api/noida',(req, res)=>{
+    console.log("User data returned");
     res.send("noidanoidanoida ")
 
 });
