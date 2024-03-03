@@ -29,6 +29,7 @@ app.get('/api/noida',(req, res)=>{
 
 // const categoryUrl = require('./src/routes/category-routes');
 // app.use('/api/category', categoryUrl);
+
 // const productRoutesUrl = require('./src/routes/product-routes');
 // app.use('/api/product', productRoutesUrl);
 
