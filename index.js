@@ -23,8 +23,8 @@ app.get('/api/noida',(req, res)=>{
 
 });
      
-//const authRouteURL = require('./src/routes/user-routes');
-//app.use('/api/auth', authRouteURL);
+const authRouteURL = require('./src/routes/user-routes');
+app.use('/api/auth', authRouteURL);
 
 // const categoryUrl = require('./src/routes/category-routes');
 // app.use('/api/category', categoryUrl);
