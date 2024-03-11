@@ -6,6 +6,8 @@ const encodedPassword = encodeURIComponent(password);
 const dbURI =`mongodb+srv://manjeshphp:${encodedPassword}@ecommerce.haoxoa7.mongodb.net/?retryWrites=true&w=majority&appName=ecommerce
 `;
 
+
+
  
 mongoose.connect(dbURI)
   .then(() => {
