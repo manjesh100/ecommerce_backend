@@ -8,7 +8,7 @@ const jwt = require('jsonwebtoken');
 class authController 
 {
    async sinupUser(req,res)
-   { 
+   {    return res.status(400).json("errorMessage");
     let rules={
       name: 'required',
       email: 'required|email',
