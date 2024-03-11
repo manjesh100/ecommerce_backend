@@ -8,7 +8,7 @@ const dbURI =`mongodb+srv://manjeshphp:${encodedPassword}@ecommerce.haoxoa7.mong
 
 
 
- 
+//IT DATA 
 mongoose.connect(dbURI)
   .then(() => {
     console.log('Connected to MongoDB');
