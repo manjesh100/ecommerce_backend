@@ -1,5 +1,4 @@
-const mongoose = require('mongoose'); 
-//const dbURI = 'mongodb://localhost:27017/ecomm_portal'; 
+const mongoose = require('mongoose');
 const password = 'abhi@9266'; // Replace with your actual password
 const encodedPassword = encodeURIComponent(password);
 //const dbURI = `mongodb+srv://manjeshphp:${encodedPassword}@cluster0.z6bxu7d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
